@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Node and Vite
+node_modules/
+dist/
+
+# Terraform: never commit state or variable files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Secrets and build output
+.env
+.env.*
+build/
+*.zip
