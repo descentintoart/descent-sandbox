@@ -20,3 +20,7 @@ crash.log
 .env.*
 build/
 *.zip
+
+# API build output
+apps/ulid/api/build/
+infra/.build/

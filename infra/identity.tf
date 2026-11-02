@@ -1,3 +1,5 @@
+# Read-only checks that Terraform can reach AWS and Cloudflare.
+
 data "aws_caller_identity" "current" {}
 
 output "aws_identity" {
